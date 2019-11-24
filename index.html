@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="plugins/font-awesome-4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="css/navbar_slider.css">
+  <link rel="stylesheet" href="css/main_side_footer.css">
+
+
+
+  <title>Channel 6 News</title>
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a href="#" class="navbar-brand" style="font-size:20px; margin-right:15px;">Channel 6 News</a>
+        <Button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar_items"><span style="color:white" class="glyphicon glyphicon-menu-hamburger"></span></Button>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar_items">
+        <ul class="nav navbar-nav">
+          <li><a href="">Home</a></li>
+          <li><a href="">Fashion</a></li>
+          <li><a href="">Lifestyle</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <div class="weather" style="font-size:20px;">
+            <span class="temparature">+10°</span>
+            <img class="weather-icon" src="images/cloud.png" alt="">
+          </div>
+          <form class="header-search-container" action="#">
+            <input type="text" class="header-search-input" placeholder="Type to Search...">
+            <img class="header-search-icon" src="images/search.png" alt="">
+          </form>
+
+          <a class="btn btn-link" href="form.html" style="color:white;">Sign-in / Sign-up</a>
+          <a href="dashboard.html"><img class="img-circle img-author" src="images/author.jpg" alt=""></a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navigation Bar -->
+
+  <!-- Slider -->
+  <div id="cover-slider" class="carousel slide front-cover" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#cover-slider" data-slide-to="0" class="active"></li>
+      <li data-target="#cover-slider" data-slide-to="1"></li>
+      <li data-target="#cover-slider" data-slide-to="2"></li>
+    </ol>
+    <!-- Slides -->
+    <div class="carousel-inner front-cover" role="listbox">
+      <div class="item active">
+        <img class="slider-img img-responsive" src="images/front-cover-1.jpg" alt="">
+        <div class="slider-caption">
+          <div class="slider-category">Political</div>
+          <p class="carousel-caption">Captain America is the first avenger and strongest in terms of his believes.</p>
+          <a href="article.html" class="cont-reading">Continue Reading <span class="glyphicon glyphicon-arrow-right"></span></a>
+        </div>
+      </div>
+      <div class="item">
+        <img class="slider-img img-responsive" src="images/front-cover-2.jpg" alt="">
+        <div class="slider-caption">
+          <div class="slider-category">Sport</div>
+          <p class="carousel-caption">Raised In the gutter. Really started From the bottom, they rised up when there was no hope.</p>
+          <a href="article.html" class="cont-reading">Continue Reading <span class="glyphicon glyphicon-arrow-right"></span></a>
+        </div>
+      </div>
+      <div class="item">
+        <img class="slider-img img-responsive" src="images/front-cover-3.jpg" alt="">
+        <div class="slider-caption">
+          <div class="slider-category">Art</div>
+          <p class="carousel-caption">After Peter Parker Got bite by a spider, gained super power strenth and instincts of a spider.</p>
+          <a href="article.html" class="cont-reading">Continue Reading <span class="glyphicon glyphicon-arrow-right"></span></a>
+        </div>
+      </div>
+    </div>
+    <!-- Controls -->
+    <a href="#cover-slider" class="left carousel-control" role="button" data-slide=prev>
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    </a>
+    <a href="#cover-slider" class="right carousel-control" role="button" data-slide=next>
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    </a>
+
+  </div>
+  <!-- End Slider -->
+
+  <!-- Page Content -->
+  <div class="container">
+    <div class="row">
+      <!-- Main Content -->
+      <div class="col-lg-9 main-content">
+        <!-- Category Panel -->
+        <div class="category-panel">
+          <span class="categories">Categories</span>
+          <div class="category-tag">
+            <ul>
+              <li><a href="#">All</a></li>
+              <li><a href="#">Sport</a></li>
+              <li><a href="#">Art</a></li>
+              <li><a href="#">Political</a></li>
+              <li><a href="#">Culture</a></li>
+            </ul>
+          </div>
+          <div class="dropdown">
+            <button class="category-more dropdown-toggle" type="button" id="btn-category-more" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">More<span class="caret"></span></button>
+            <ul class="dropdown-menu" aria-labelledby="btn-category-more">
+              <li><a href="#">Business</a></li>
+              <li><a href="#">Education</a></li>
+              <li><a href="#">Trending</a></li>
+              <li><a href="#">Travel</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- End Category Panel -->
+
+        <!-- News Section -->
+        <div class="container-fluid">
+          <div class="news-container">
+            <!-- News 1 -->
+            <div class="news-card">
+              <img class="news-card-img img-responsive" src="images/front-cover-3.jpg" alt="News Alt">
+              <div class="news-card-body">
+                <a href="article.html" lass="news-title">After Peter Parker Got bite by a spider, gained super power strenth and instincts of a spider.</a>
+                <p class="news-meta">Peter Parker 29, 2017 at 9:48 am</p>
+              </div>
+            </div>
+            <!-- News 2 -->
+            <div class="news-card">
+              <img class="news-card-img img-responsive" src="images/front-cover-1.jpg" alt="News Alt">
+              <div class="news-card-body">
+                <a href="article.html" class="news-title">Captain America is the first avenger and strongest in terms of his believes, which makes him Stronger.</a>
+                <p class="news-meta">Chris Evans 29, 2017 at 9:48 am</p>
+              </div>
+            </div>
+            <!-- News 3 -->
+            <div class="news-card">
+              <img class="news-card-img img-responsive" src="images/front-cover-2.jpg" alt="News Alt">
+              <div class="news-card-body">
+                <a href="article.html" class="news-title">Raised In the gutter. Really started From the bottom, they rised up when there was no hope.</a>
+                <p class="news-meta">Hamato Yoshi 29, 2017 at 9:48 am</p>
+              </div>
+            </div>
+            <!-- News 4 -->
+            <div class="news-card">
+              <img class="news-card-img img-responsive" src="images/news-4.jpg" alt="News Alt">
+              <div class="news-card-body">
+                <a href="article.html" class="news-title">After Peter Parker Got bite by a spider, gained super power strenth and instincts of a spider.</a>
+                <p class="news-meta">Katy LiuSep 29, 2017 at 9:48 am</p>
+              </div>
+            </div>
+            <!-- News 5 -->
+            <div class="news-card">
+              <img class="news-card-img img-responsive" src="images/news-5.jpg" alt="News Alt">
+              <div class="news-card-body">
+                <a href="article.html" class="news-title">After Peter Parker Got bite by a spider, gained super power strenth and instincts of a spider.</a>
+                <p class="news-meta">Matt Demon 29, 2017 at 9:48 am</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End News Section -->
+      </div>
+      <!-- End Main Content -->
+      <!-- SideBar -->
+      <div class="col-lg-3 sidebar-content">
+
+        <!-- Trending -->
+        <span class="categories">What's Trending?</span>
+        <!-- Side Post 1 -->
+        <a href="article.html">
+          <div class="side-post"> <img src="images/side-news-1.jpg" alt="" class="side-post-img img-responsive"></div>
+          <div class="side-post-title">After Peter Parker Got bite by a spider, </div>
+          <p class="side-post-meta">Matt Demon 29, 2017 at 9:48 am</p>
+        </a>
+        <!-- Side Post 2 -->
+        <a href="article.html">
+          <div class="side-post"> <img src="images/side-news-2.jpg" alt="" class="side-post-img img-responsive"></div>
+          <div class="side-post-title">After Peter Parker Got bite by a spider, </div>
+          <p class="side-post-meta">Matt Demon 29, 2017 at 9:48 am</p>
+        </a>
+        <!-- Side Post 3 -->
+        <a href="article.html">
+          <div class="side-post"> <img src="images/side-news-3.jpg" alt="" class="side-post-img img-responsive"></div>
+          <div class="side-post-title">After Peter Parker Got bite by a spider, </div>
+          <p class="side-post-meta">Matt Demon 29, 2017 at 9:48 am</p>
+        </a>
+        <!-- Side Post 4 -->
+        <a href="article.html">
+          <div class="side-post"> <img src="images/side-news-4.jpg" alt="" class="side-post-img img-responsive"></div>
+          <div class="side-post-title">After Peter Parker Got bite by a spider, </div>
+          <p class="side-post-meta">Matt Demon 29, 2017 at 9:48 am</p>
+        </a>
+        <!--  -->
+        <hr>
+
+        <!-- Recent News -->
+        <span class="categories">Recently</span>
+        <!-- Side Post 1 -->
+        <a href="article.html">
+          <div class="side-post"> <img src="images/side-news-1.jpg" alt="" class="side-post-img img-responsive"></div>
+          <div class="side-post-title">After Peter Parker Got bite by a spider, </div>
+          <p class="side-post-meta">Matt Demon 29, 2017 at 9:48 am</p>
+        </a>
+        <!-- Side Post 2 -->
+        <a href="article.html">
+          <div class="side-post"> <img src="images/side-news-2.jpg" alt="" class="side-post-img img-responsive"></div>
+          <div class="side-post-title">After Peter Parker Got bite by a spider, </div>
+          <p class="side-post-meta">Matt Demon 29, 2017 at 9:48 am</p>
+        </a>
+        <!-- Side Post 3 -->
+        <a href="article.html">
+          <div class="side-post"> <img src="images/side-news-3.jpg" alt="" class="side-post-img img-responsive"></div>
+          <div class="side-post-title">After Peter Parker Got bite by a spider, </div>
+          <p class="side-post-meta">Matt Demon 29, 2017 at 9:48 am</p>
+        </a>
+        <!-- Side Post 4 -->
+        <a href="article.html">
+          <div class="side-post"> <img src="images/side-news-4.jpg" alt="" class="side-post-img img-responsive"></div>
+          <div class="side-post-title">After Peter Parker Got bite by a spider, </div>
+          <p class="side-post-meta">Matt Demon 29, 2017 at 9:48 am</p>
+        </a>
+
+      </div>
+      <!-- End Sidebar -->
+    </div>
+  </div>
+  <!-- End Page Content -->
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="col-lg-9 footer-info">
+        <p class="logo">Channel 6 News</p>
+        <div class="social-medias">
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-pinterest"></i>
+          <i class="fa fa-vimeo"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-google"></i>
+        </div>
+        <p class="copyright">copyright &copy; 2018 | This Template is Written By Niamileo@gmail.com (It's Originally copied from ColorLib)</p>
+      </div>
+      <div class="col-lg-3 footer-subscribe">
+        <p class="subscribe-title">Subscribe</p>
+        <form action="#">
+          <input class="sub-input" type="text" placeholder="Your Email">
+          <a class="sub-button"><i class="glyphicon glyphicon-arrow-right"></i></a>
+        </form>
+      </div>
+    </div>
+  </footer>
+  <!-- end footer -->
+
+  <script src="js/jquery.1.4.1.js" charset="utf-8"></script>
+  <script src="js/bootstrap.js" charset="utf-8"></script>
+  <script src="js/scripts.js" charset="utf-8"></script>
+</body>
+
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="plugins/font-awesome-4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="css/navbar_slider.css">
+  <link rel="stylesheet" href="css/main_side_footer.css">
+  <link rel="stylesheet" href="css/article_form.css">
+
+
+  <title>Form</title>
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a href="#" class="navbar-brand" style="font-size:20px; margin-right:15px;">Channel 6 News</a>
+        <Button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar_items"><span style="color:white" class="glyphicon glyphicon-menu-hamburger"></span></Button>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar_items">
+        <ul class="nav navbar-nav">
+          <li><a href="">Home</a></li>
+          <li><a href="">Fashion</a></li>
+          <li><a href="">Lifestyle</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <div class="weather" style="font-size:20px;">
+            <span class="temparature">+10°</span>
+            <img class="weather-icon" src="images/cloud.png" alt="">
+          </div>
+          <form class="header-search-container" action="#">
+            <input type="text" class="header-search-input" placeholder="Type to Search...">
+            <img class="header-search-icon" src="images/search.png" alt="">
+          </form>
+
+          <a class="btn btn-link" href="form.html" style="color:white;">Sign-in / Sign-up</a>
+          <a href="dashboard.html"><img class="img-circle img-author" src="images/author.jpg" alt=""></a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navigation Bar -->
+
+
+
+  <!-- Page Content -->
+  <div class="form-container">
+
+    <img src="images/front-cover-3.jpg" class="img-responsive img-form" alt="">
+
+    <div class="row">
+      <!-- Main Content -->
+      <div class="col-lg-6 offset-lg-3 register-form">
+
+
+              <!-- Alert -->
+              <div class="row" style="margin: 5px; padding: 13px 15px 0px 15px;">
+                <div class="alert alert-success">
+                  <strong>Success!</strong> Indicates a successful or positive action.
+                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                 </button>
+                </div>
+              </div>
+
+
+        <h3 style="text-align:center">Signup <strong>/</strong> Signin</h3>
+        <form class="" action="index.html" method="post">
+          <input type="email" class="form-input" placeholder="Your Email" required="required">
+          <input type="password" class="form-input" placeholder="Your Password" required="required">
+        </form>
+        <div class="row" style="margin-top:40px;">
+          <div class="col-lg-6">
+            <img class="img-responsive" src="images/register-google.png" alt="">
+          </div>
+          <div class="col-lg-6">
+            <img class="img-responsive" src="images/register-facebook.png" alt="">
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row" style="margin-top:40px;">
+            <div class="col-lg-2 btn"><a href="index.html">Cancel</a></div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-4 btn-form btn-from-register">Register</div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-4 btn-form btn-form-login">Login</div>
+          </div>
+        </div>
+      </div>
+      <!-- End Main Content -->
+    </div>
+  </div>
+  <!-- End Page Content -->
+
+
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="col-lg-9 footer-info">
+        <p class="logo">Channel 6 News</p>
+        <div class="social-medias">
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-pinterest"></i>
+          <i class="fa fa-vimeo"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-google"></i>
+        </div>
+        <p class="copyright">copyright &copy; 2018 | This Template is Written By Niamileo@gmail.com (It's Originally copied from ColorLib)</p>
+      </div>
+      <div class="col-lg-3 footer-subscribe">
+        <p class="subscribe-title">Subscribe</p>
+        <form action="#">
+          <input class="sub-input" type="text" placeholder="Your Email">
+          <a class="sub-button"><i class="glyphicon glyphicon-arrow-right"></i></a>
+        </form>
+      </div>
+    </div>
+  </footer>
+  <!-- end footer -->
+
+  <script src="js/jquery.1.4.1.js" charset="utf-8"></script>
+  <script src="js/bootstrap.js" charset="utf-8"></script>
+  <script src="js/scripts.js" charset="utf-8"></script>
+</body>
+
+</html>
